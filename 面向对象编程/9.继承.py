@@ -34,7 +34,7 @@ class Person(Animal):
 
 class Dog(Animal):
     def chase_rabbit(self):
-        print("狗在追究兔子。。。。")
+        print("狗在追兔子。。。。")
 
 
 p = Person("Alex",22,"M","女人")

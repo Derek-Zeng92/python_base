@@ -29,7 +29,7 @@ class Monkey(MonkeyBase):
     #     print("猴子在打架...")
 
 
-class MonkeyKing(Monkey,ShenXian):
+class MonkeyKing(Monkey,ShenXian): # 继承顺序是从左到右
 
     def play_goden_stick(self):
         print("孙悟空玩金箍棒...")

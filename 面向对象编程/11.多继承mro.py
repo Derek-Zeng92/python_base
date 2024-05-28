@@ -37,6 +37,7 @@ class F(D,E):
     #     print('from F')
     pass
 
+# 打印继承顺序
 print(F.mro())
 
 f1=F()

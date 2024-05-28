@@ -158,8 +158,8 @@ py_course = Course("Python",21800,None)
 linux_course = Course("Linux",19800,None)
 test_course = Course("Testing",19800,None)
 go_course = Course("GO",22800,None)
-# 创建 班级
 
+# 创建 班级
 py_24 = Class(py_course,24,headquarter)
 go_5 = Class(go_course,5,headquarter)
 py_12 = Class(py_course,12,sh1_school)
